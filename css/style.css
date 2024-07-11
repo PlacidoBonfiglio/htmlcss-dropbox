@@ -12,7 +12,7 @@
 }
 
 .small-container {
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -29,8 +29,20 @@ h1 {
 }
 
 h2 {
-    font-size: 55px;
+    font-size: 50px;
     padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.line-height50 {
+    line-height: 50px;
+}
+
+span {
+    font-size: 16px;
 }
 
 /* GENERICS */
@@ -40,6 +52,10 @@ body {
 
 .row {
     display: flex;
+}
+
+.relative {
+    position: relative;
 }
 
 ul {
@@ -69,6 +85,14 @@ a.header-login {
     text-decoration: none;
 }
 
+.big-blue-btn {
+    color: white;
+    background-color: #0061FF;
+    padding: 12px 45px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
 .blue-btn:hover {
     background-color: #5b9aff;
 }
@@ -82,10 +106,6 @@ a.header-login {
 }
 
 /* HEADER */
-header {
-    position: relative;
-}
-
 .navbar {
     justify-content: space-between;
     height: 100px;
@@ -216,18 +236,66 @@ header {
     font-size: 18px;
 }
 
+/* CARDS */
 .buisness-cards {
     padding-top: 70px;
-    gap: 20px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 
 .card {
-    flex-basis: calc(100% / 3 - 40px / 3);
-    min-height: 300px;
+    flex-basis: calc(100% / 3 - 120px / 3);
+    min-height: 500px;
     border: 1px solid lightgrey;
 }
 
 .card.long-card {
     flex-grow: 1;
 }
+
+.top-card {
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-center {
+    padding: 40px 40px;
+}
+
+.payment-installment {
+    color: grey;
+}
+
+.card-center-info {
+    padding: 40px;
+}
+
+.service div {
+    padding-top: 25px;
+}
+
+.service span {
+    padding-left: 10px;
+}
+
+.free-month {
+    line-height: 150px;
+}
+
+.user,
+.space,
+.functions {
+    position: relative;
+    left: 0px;
+    top: 3px;
+}
+
+.or {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 40px;
+}
+
+
