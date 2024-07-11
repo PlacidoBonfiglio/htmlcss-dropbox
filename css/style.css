@@ -88,10 +88,12 @@ header {
     flex-basis: 30%;
 }
 
-.dropbox-logo {
+
+.link-logo {
     align-items: center;
     height: 60px;
     width: 150px;
+
 }
 
 #logo {
