@@ -26,6 +26,10 @@
     text-decoration: none;
 }
 
+.blue-btn:hover {
+    background-color: #5b9aff;
+}
+
 .white-btn {
 
 }
