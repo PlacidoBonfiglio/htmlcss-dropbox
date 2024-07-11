@@ -330,3 +330,23 @@ span.highlights-span {
     height: 100%;
     padding: 40px;
  }
+
+ .long-card-left {
+    flex-basis: 65%;
+ }
+
+ .long-card-right {
+    flex-basis: 35%;
+ }
+
+ .sales-office {
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+
+ .long-card-p {
+    padding-top: 50px;
+ }
+
+
