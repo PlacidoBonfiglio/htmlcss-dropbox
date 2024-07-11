@@ -11,6 +11,13 @@
     margin: 0 auto;
 }
 
+/* DA CORREGGERE */
+.navbar a.header-info:hover,
+.navbar a.header-support:hover,
+.navbar a.header-login:hover {
+    border-bottom: 2px solid grey;
+}
+
 .blue-btn {
     color: white;
     background-color: #0061FF;
@@ -42,6 +49,7 @@ a.header-login {
     text-decoration: none;
     color: black;
     font-size: 20px;
+    padding-bottom: 36px;
 }
 
 h1 {
@@ -70,7 +78,6 @@ header {
 
 .navbar-left {
     flex-basis: 30%;
-    border: 2px dashed blue;
 }
 
 .dropbox-logo {
@@ -93,7 +100,6 @@ header {
 .navbar-right {
     flex-basis: 30%;
     justify-content: flex-end;
-    border: 2px dashed blue;
 }
 
 /* jumbotron */
