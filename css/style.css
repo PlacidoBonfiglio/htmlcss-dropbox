@@ -9,6 +9,11 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .big-container {
     width: 1600px;
     margin: 0 auto;
@@ -19,9 +24,12 @@ html {
     margin: 0 auto;
 }
 
-
 .jumbo-description > p {
     font-size: 20px;
+}
+
+p.fs18 {
+    font-size: 18px;
 }
 
 h1 {
@@ -38,6 +46,10 @@ h2 {
 
 h3 {
     font-size: 30px;
+}
+
+h3.mb20 {
+    margin-bottom: 20px;
 }
 
 .line-height50 {
@@ -109,6 +121,16 @@ a.header-login {
     text-decoration: none;
 }
 
+.white-btn-border {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid black;
+    display: inline-block;
+}
+
 /* HEADER */
 .navbar {
     justify-content: space-between;
@@ -157,6 +179,7 @@ a.header-login {
     background-color: #B4D0E7;
     padding-top: 150px;
     padding-bottom: 40px;
+    margin-bottom: 300px;
 }
 
 .jumbo-box {
@@ -202,8 +225,6 @@ a.header-login {
 }
 
 .jumbo-img {
-    max-width: 100%;
-    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -211,10 +232,6 @@ a.header-login {
 
 /* MAIN */
 /* PURCHASE SECTION */
-#buisness {
-    padding-top: 300px;
-}
-
 .billing-type {
     gap: 50px;
 }
@@ -241,6 +258,10 @@ a.header-login {
 }
 
 /* CARDS */
+.buisness-offers {
+    margin-bottom: 200px;
+}
+
 .buisness-cards {
     padding-top: 70px;
     gap: 60px;
@@ -329,8 +350,6 @@ span.highlights-span {
 
  /* long card */
  .padding-long-card {
-    width: 100%;
-    height: 100%;
     padding: 40px;
  }
 
@@ -352,4 +371,37 @@ span.highlights-span {
     padding-top: 50px;
  }
 
+ /* find partner */
+ .find-partner {
+    margin-top: 200px;
+ }
 
+ .partner-left {
+    flex-basis: 60%;
+ }
+
+ .partner-right {
+    flex-basis: 40%;
+    padding-top: 60px;
+    padding-left: 60px;
+ }
+
+ .partner-link {
+    margin-top: 30px;
+ }
+
+ /* BUISNESS OPERATIONS SECTIONS */
+.buisness-operations {
+    margin-bottom: 200px;
+}
+
+.operations-cards {
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.op-card {
+    flex-basis: calc(100% / 3 - 100px / 3);
+    border: 2px dashed black;
+    min-height: 100px;
+}
