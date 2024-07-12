@@ -446,10 +446,16 @@ a.find-out-more {
     height: 400px;
 }
 
-/* left squares */
+/* left & right squares */
 .ss-bg {
     height: 100%;
     width: 100%;
+}
+
+.centered-img {
+    height: 200px;
+    width: 200px;
+    margin: 90px auto ;
 }
 
 .design-green {
@@ -460,17 +466,73 @@ a.find-out-more {
     border-right: 20px solid #A2D39B;
 }
 
-.centered-img {
-    height: 200px;
-    width: 200px;
-    margin: 80px auto ;
+.purple-box {
+    background-color: #61082B;
+    border-top: 20px solid #61082B;
+    border-bottom: 20px solid #61082B;
+    border-left: 20px solid #61082B;
+    border-right: 20px solid #61082B;
 }
 
-.ss-bg:hover {
-    border-top: 20px solid #D1E9CD;
-    border-bottom: 20px solid #D1E9CD;
-    border-left: 20px solid #D1E9CD;
-    border-right: 20px solid #D1E9CD;
+.skyblue-box {
+    background-color: #0093CE;
+    border-top: 20px solid #0093CE;
+    border-bottom: 20px solid #0093CE;
+    border-left: 20px solid #0093CE;
+    border-right: 20px solid #0093CE;
+}
+
+.florida-university {
+    height: 50px;
+    margin-top: 70px;
+}
+
+.red-box {
+    background-color: #FF1C1C;
+    border-top: 20px solid #FF1C1C;
+    border-bottom: 20px solid #FF1C1C;
+    border-left: 20px solid #FF1C1C;
+    border-right: 20px solid #FF1C1C;
+}
+
+.darkred-box {
+    background-color: #D5001F;
+    border-top: 20px solid #D5001F;
+    border-bottom: 20px solid #D5001F;
+    border-left: 20px solid #D5001F;
+    border-right: 20px solid #D5001F;
+}
+
+.lightblue-box {
+    background-color: #B4D0E7;
+    border-top: 20px solid #B4D0E7;
+    border-bottom: 20px solid #B4D0E7;
+    border-left: 20px solid #B4D0E7;
+    border-right: 20px solid #B4D0E7;
+}
+
+.darkblue-box {
+    background-color: #0D2481;
+    border-top: 20px solid #0D2481;
+    border-bottom: 20px solid #0D2481;
+    border-left: 20px solid #0D2481;
+    border-right: 20px solid #0D2481;
+}
+
+.yellow-box {
+    background-color: #FFD830;
+    border-top: 20px solid #FFD830;
+    border-bottom: 20px solid #FFD830;
+    border-left: 20px solid #FFD830;
+    border-right: 20px solid #FFD830;
+}
+
+.ss-bg:hover,
+.bgc-square-center:hover {
+    border-top: 20px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 20px solid rgba(255, 255, 255, 0.5);
+    border-left: 20px solid rgba(255, 255, 255, 0.5);
+    border-right: 20px solid rgba(255, 255, 255, 0.5);
 }
 
 .invert-filter {
@@ -483,13 +545,13 @@ a.find-out-more {
 }
 
 .bgc-square-center {
-    height: 100%;
+    height: 800px;
     width: 100%;
     background-color: #F5F5F5;
-}
-
-.bs-padding {
-    padding: 60px;
+    border-top: 20px solid #F5F5F5;
+    border-bottom: 20px solid #F5F5F5;
+    border-left: 20px solid #F5F5F5;
+    border-right: 20px solid #F5F5F5;
 }
 
 .custumers-center {
