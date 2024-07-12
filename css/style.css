@@ -410,11 +410,20 @@ a.find-out-more {
 }
 
 /* OUR COSTUMERS */
-.costumers-container {
+.custumers-container {
     height: 800px;
     background-color: lightgreen;
     width: 100%;
 }
+
+.customers-area {
+    flex-basis: calc(100% / 3);
+    height: 800px;
+    border: 2px dashed black;
+}
+
+
+
 
 /* your comapny */
 .for-your-company {
@@ -437,7 +446,6 @@ a.find-out-more {
 .fyc-right {
     flex-basis: 40%;
     height: 200px;
-    
 }
 
 .fyc-wb {
