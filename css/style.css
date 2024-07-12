@@ -48,6 +48,7 @@ h3 {
     font-size: 30px;
 }
 
+
 h3.mb20 {
     margin-bottom: 20px;
 }
@@ -58,6 +59,10 @@ h3.mb20 {
 
 span {
     font-size: 16px;
+}
+
+.mb200px {
+    margin-bottom: 200px;
 }
 
 /* GENERICS */
@@ -116,9 +121,10 @@ a.header-login {
 .white-btn {
     color: black;
     background-color: white;
-    padding: 8px 20px;
+    padding: 15px 60px;
     font-size: 20px;
     text-decoration: none;
+    display: inline-block;
 }
 
 .white-btn-border {
@@ -258,10 +264,6 @@ a.header-login {
 }
 
 /* CARDS */
-.buisness-offers {
-    margin-bottom: 200px;
-}
-
 .buisness-cards {
     padding-top: 70px;
     gap: 60px;
@@ -391,10 +393,6 @@ span.highlights-span {
  }
 
  /* BUISNESS OPERATIONS SECTIONS */
-.buisness-operations {
-    margin-bottom: 200px;
-}
-
 .operations-cards {
     flex-wrap: wrap;
     gap: 60px;
@@ -406,3 +404,44 @@ span.highlights-span {
     min-height: 300px;
 }
 
+a.find-out-more {
+    display: block;
+    margin-top: 20px;
+}
+
+/* OUR COSTUMERS */
+.costumers-container {
+    height: 800px;
+    background-color: lightgreen;
+    width: 100%;
+}
+
+/* your comapny */
+.for-your-company {
+    min-height: 400px;
+    width: 100%;
+    background-color: #B4D0E7;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.fyc-left {
+    flex-basis: 60%;
+    height: 200px;
+}
+
+.fych2 {
+    color: #61082B;
+}
+
+.fyc-right {
+    flex-basis: 40%;
+    height: 200px;
+    
+}
+
+.fyc-wb {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
