@@ -52,8 +52,12 @@ h3 {
     font-size: 30px;
 }
 
-
 h3.mb20 {
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -78,6 +82,10 @@ a.no-td {
     height: 100%;
     width: 100%;
     padding: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
 }
 
 /* GENERICS */
@@ -600,4 +608,33 @@ a.find-out-more {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+/* FREQUENT QUESTIONS */ 
+.questions-border {
+    border: 1px solid lightgrey;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.question-answers {
+    width: 100%;
+    height: 100%;
+}
+
+.qna-left {
+    flex-basis: 90%;
+}
+
+.qna-right {
+    flex-basis: 10%;
+    justify-content: center;
+}
+
+.question-answers:hover .p-hover {
+    display: inline-block;
+}
+
+p.p-hover {
+    display: none;
 }
