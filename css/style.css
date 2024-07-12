@@ -5,6 +5,9 @@
 }
 
 /* UTILS */
+html {
+    scroll-behavior: smooth;
+}
 
 .big-container {
     width: 1600px;
@@ -208,7 +211,7 @@ a.header-login {
 
 /* MAIN */
 /* PURCHASE SECTION */
-.buisness {
+#buisness {
     padding-top: 300px;
 }
 
