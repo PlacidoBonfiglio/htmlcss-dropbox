@@ -332,6 +332,10 @@ a.header-login {
     padding-top: 25px;
 }
 
+ul.mt20 li {
+    margin-top: 20px;
+}
+
 .service span,
 span.highlights-span {
     padding-left: 10px;
@@ -472,26 +476,17 @@ a.find-out-more {
 
 .design-green {
     background-color: #A2D39B;
-    border-top: 20px solid #A2D39B;
-    border-bottom: 20px solid #A2D39B;
-    border-left: 20px solid #A2D39B;
-    border-right: 20px solid #A2D39B;
+    border: 20px solid #A2D39B;
 }
 
 .purple-box {
     background-color: #61082B;
-    border-top: 20px solid #61082B;
-    border-bottom: 20px solid #61082B;
-    border-left: 20px solid #61082B;
-    border-right: 20px solid #61082B;
+    border: 20px solid #61082B;
 }
 
 .skyblue-box {
     background-color: #0093CE;
-    border-top: 20px solid #0093CE;
-    border-bottom: 20px solid #0093CE;
-    border-left: 20px solid #0093CE;
-    border-right: 20px solid #0093CE;
+    border: 20px solid #0093CE;
 }
 
 .florida-university {
