@@ -501,42 +501,27 @@ a.find-out-more {
 
 .red-box {
     background-color: #FF1C1C;
-    border-top: 20px solid #FF1C1C;
-    border-bottom: 20px solid #FF1C1C;
-    border-left: 20px solid #FF1C1C;
-    border-right: 20px solid #FF1C1C;
+    border: 20px solid #FF1C1C;
 }
 
 .darkred-box {
     background-color: #D5001F;
-    border-top: 20px solid #D5001F;
-    border-bottom: 20px solid #D5001F;
-    border-left: 20px solid #D5001F;
-    border-right: 20px solid #D5001F;
+    border: 20px solid #D5001F;
 }
 
 .lightblue-box {
     background-color: #B4D0E7;
-    border-top: 20px solid #B4D0E7;
-    border-bottom: 20px solid #B4D0E7;
-    border-left: 20px solid #B4D0E7;
-    border-right: 20px solid #B4D0E7;
+    border: 20px solid #B4D0E7;
 }
 
 .darkblue-box {
     background-color: #0D2481;
-    border-top: 20px solid #0D2481;
-    border-bottom: 20px solid #0D2481;
-    border-left: 20px solid #0D2481;
-    border-right: 20px solid #0D2481;
+    border: 20px solid #0D2481;
 }
 
 .yellow-box {
     background-color: #FFD830;
-    border-top: 20px solid #FFD830;
-    border-bottom: 20px solid #FFD830;
-    border-left: 20px solid #FFD830;
-    border-right: 20px solid #FFD830;
+    border: 20px solid #FFD830;
 }
 
 .ss-bg:hover,
